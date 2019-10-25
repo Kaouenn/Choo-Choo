@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap");
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://assets.trainline.eu/assets/images/open-home/covers/cover-beach-8dc53adfd913bec45958b705ec6369fa.jpg");
+}
+
+.all-forms {
+  margin: auto;
+  height: 460px;
+  width: 940px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-left,
+.forms-right {
+  background-color: #fff;
+  border-radius: 0.3125em;
+  margin-top: 38px;
+  height: 460px;
+  width: 48.82117%;
+  box-sizing: content-box;
+}
+
+.forms-right {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 900px) {
+  body {
+    background: #f2f2f2;
+  }
+  .header > div {
+    width: 100%;
+  }
+  .header-button-bloc,
+  .header-flags-bloc,
+  .euro-currency {
+    display: none !important;
+  }
+  .header-logo {
+    margin: auto;
+  }
+
+  .all-forms {
+    margin-top: 300px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .form-left,
+  .forms-right {
+    width: 95%;
+    margin: 10px auto;
+  }
+}

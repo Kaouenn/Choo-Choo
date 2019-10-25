@@ -1,0 +1,71 @@
+.infos-header {
+  padding: 18px 40px;
+  background: #253551;
+  border-top-left-radius: 0.3125em;
+  border-top-right-radius: 0.3125em;
+}
+
+.forms-right h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.landing-panel__content {
+  padding: 25px 40px;
+}
+
+.landing-panel__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 255px;
+  display: table;
+}
+
+.landing-panel__list-item {
+  font-size: 17px;
+  line-height: 1.4em;
+  display: table-row;
+  min-height: 33%;
+}
+
+.landing-panel__list-item .icon--price {
+  background-image: url("https://assets.trainline.eu/assets/images/open-home/icons/icon-tag-white-db66a5509c672b244e93ffbadd28b873.svg");
+}
+.landing-panel__list-item .icon--loyalty-card {
+  background-image: url("https://assets.trainline.eu/assets/images/open-home/icons/icon-loyalty-card-white-b8fbb92eff5da55d89f515dc5e2b4031.svg");
+}
+.landing-panel__list-item .icon--payment {
+  background-image: url("https://assets.trainline.eu/assets/images/open-home/icons/icon-payment-white-13f3f68e4a260d165dd0bffc1514a98a.svg");
+}
+.landing-panel__list-item > span {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: center no-repeat #21314d;
+  margin-top: 3px;
+}
+
+.landing-panel__list-item > div {
+  padding-left: 60px;
+}
+
+.landing-panel__list-item b,
+.landing-panel__list-item strong {
+  color: #01c3a7;
+  font-weight: 600;
+}
+
+.landing-panel__app-download-badges {
+  display: flex;
+  justify-content: center;
+}
+
+.app-img {
+  height: 35px;
+  padding: 0 5px;
+}
