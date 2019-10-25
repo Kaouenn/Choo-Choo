@@ -1,69 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Overview](https://res.cloudinary.com/dnhwttpnq/image/upload/v1572021328/Trainline/Home1_e3tdxd.png)
 
-## Available Scripts
+# Budget Web App
 
-In the project directory, you can run:
+> 🚄 Trainline homepage from https://www.trainline.fr/
 
-### `npm start`
+## Table of contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Features](#features)
+- [Status](#status)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## General info
 
-### `npm test`
+Front End Project done with React.js who calls 3 differents API from https://api.comparatrip.eu/.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `npm run build`
+- axios - version 0.19.0
+- React.js - version 16.8.6
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Clone the repository then install the dependencies using `npm install`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure nothing is running on your port 3000.
 
-### `npm run eject`
+Use `npm start`to launch the website.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can also visit the demo website :
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Link : https://trainline-homepage.francoislaval.now.sh/
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Features
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- A single page appears
 
-## Learn More
+  ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1572021328/Trainline/Home1_e3tdxd.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Firstly : You have to choose a departure destination and click on it !
+  You can do it directly from the sugestions or type it inside the input 👨‍💻
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1572021328/Trainline/Home2_ye50cg.png)
 
-### Code Splitting
+- Secondly : Do the same for the return, if you want to come back.. 🏝
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1572021328/Trainline/Home3_t1so4o.png)
 
-### Analyzing the Bundle Size
+* Finally : You can make a real trip (and stop dreaming) on https://www.trainline.fr/ 😉
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Status
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# Choo-Choo
+Project is _in-progress_.
