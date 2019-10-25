@@ -31,7 +31,7 @@ Use `npm start`to launch the website.
 
 You can also visit the demo website :
 
-Link : https://trainline-homepage.francoislaval.now.sh/
+Link : https://choo-choo.francoislaval.now.sh/
 
 ## Features
 
