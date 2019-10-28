@@ -1,6 +1,6 @@
 ![Overview](https://res.cloudinary.com/dnhwttpnq/image/upload/v1572021328/Trainline/Home1_e3tdxd.png)
 
-# Budget Web App
+# Trainline clone
 
 > 🚄 Trainline homepage from https://www.trainline.fr/
 
